@@ -1,4 +1,4 @@
-# Soluces for Lab 2
+# Soluces for Lab 3
 
 ```json
 # Update the `devoxxpipeline` ingest pipeline so it now extracts text from base64 encoded binary file.
