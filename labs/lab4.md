@@ -7,3 +7,5 @@ Useful links:
 ## Steps
 
 TODO
+
+[Next step](lab5.md).

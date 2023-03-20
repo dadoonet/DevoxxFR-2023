@@ -51,3 +51,5 @@ Useful links:
 
 * Search for documents where `message` has `"Devoxx"`.
 * Search for documents where `message` has `"Devoxx"` or `session` has `recherche`, the more terms, the better.
+
+[Next step](lab2.md).

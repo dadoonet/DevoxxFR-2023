@@ -41,3 +41,5 @@ Then index the following documents (using the bulk API):
 { "content" : "Welcome to Devoxx France 2013|Un moteur de recherche de documents d'entreprise|2023-04-12|4.5" }
 { "content" : "Welcome to Devoxx France 2013|The Developer Portal: Open the Gate to Productivity 🚀|2023-04-13|5.0" }
 ```
+
+[Next step](lab3.md).
