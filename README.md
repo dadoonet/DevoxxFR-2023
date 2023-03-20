@@ -2,7 +2,11 @@
 
 Workshop space for [Devoxx FR 2023](https://cfp.devoxx.fr/2023/talk/SPD-7040/Un_moteur_de_recherche_de_documents_d'entreprise).
 
-## TODO
+## Labs
+
+Each lab has its specific guide:
+
+* [Lab 0](labs/lab0.md): setup
 
 ## LICENSE
 
