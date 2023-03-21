@@ -18,6 +18,7 @@ Get the FSCrawler docker image:
 
 ```sh
 docker pull dadoonet/fscrawler
+docker pull trinitronx/python-simplehttpserver
 ```
 
 Or get the latest version of FSCrawler (java 11+ required) from <https://s01.oss.sonatype.org/content/repositories/snapshots/fr/pilato/elasticsearch/crawler/fscrawler-distribution/2.10-SNAPSHOT/>.
