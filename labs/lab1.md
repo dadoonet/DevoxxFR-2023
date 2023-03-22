@@ -10,7 +10,7 @@ Useful links:
 ## Steps
 
 * Open Kibana Dev Console
-* Index a first document:
+* Index a first document in the `devoxxfr` index:
 
 ```json
 {
