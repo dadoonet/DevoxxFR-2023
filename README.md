@@ -6,7 +6,15 @@ Workshop space for [Devoxx FR 2023](https://cfp.devoxx.fr/2023/talk/SPD-7040/Un_
 
 Each lab has its specific guide:
 
-* [Lab 0](labs/lab0.md): setup
+Each lab has its specific guide:
+
+* [Lab 0](labs/lab0.md): Setup (please run this one ASAP)
+* [Lab 1](labs/lab1.md): Indexing JSON documents
+* [Lab 2](labs/lab2.md): Ingest Pipelines
+* [Lab 3](labs/lab3.md): Ingest Attachment Processor
+* [Lab 4](labs/lab4.md): Ingest Inference Processor
+* [Lab 5](labs/lab5.md): FSCrawler
+* [Lab 6](labs/lab6.md): Workplace Search
 
 ## LICENSE
 
