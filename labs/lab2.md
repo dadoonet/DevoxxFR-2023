@@ -14,7 +14,7 @@ The source document is:
 
 ```json
 {
-  "content": "Welcome to Devoxx France 2013|Un moteur de recherche de documents d'entreprise|2023-04-12|4.5"
+  "content": "Welcome to Devoxx France 2023|Un moteur de recherche de documents d'entreprise|2023-04-12|4.5"
 }
 ```
 
@@ -22,7 +22,7 @@ Build/simulate a pipeline which transforms it to:
 
 ```json
 {
-  "message": "Welcome to Devoxx France 2013",
+  "message": "Welcome to Devoxx France 2023",
   "session": "Un moteur de recherche de documents d'entreprise",
   "date": "2023-01-02T00:00:00.000Z",
   "note": 4.5
@@ -38,8 +38,8 @@ Then define it as the default pipeline for the index `devoxxfr`.
 Then index the following documents (using the bulk API):
 
 ```json
-{ "content" : "Welcome to Devoxx France 2013|Un moteur de recherche de documents d'entreprise|2023-04-12|4.5" }
-{ "content" : "Welcome to Devoxx France 2013|The Developer Portal: Open the Gate to Productivity 🚀|2023-04-13|5.0" }
+{ "content" : "Welcome to Devoxx France 2023|Un moteur de recherche de documents d'entreprise|2023-04-12|4.5" }
+{ "content" : "Welcome to Devoxx France 2023|The Developer Portal: Open the Gate to Productivity 🚀|2023-04-13|5.0" }
 ```
 
 [Next step](lab3.md).
