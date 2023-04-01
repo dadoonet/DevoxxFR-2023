@@ -9,14 +9,16 @@ Useful links:
 
 ## Use case 1: Named Entity Recognition (NER) Model
 ### Steps
-- Deploy a named entity recognition (NER) model in Elasticsearch.
-- Test the deployed model.
-- Add the model to your inference ingest pipeline.
+- Deploy a named entity recognition (NER) model in Elasticsearch
+- Test the deployed model
+- Add the model to your inference ingest pipeline
 
 ## Use case 2: Text Embedding Model & Semantic Search
+You can use any Text Embedding Model from the [third-party model reference list](https://www.elastic.co/guide/en/machine-learning/master/ml-nlp-model-ref.html#ml-nlp-model-ref-ner).
+
 ### Steps
-- Deploy a text embedding model in Elasticsearch.
+- Deploy a text embedding model in Elasticsearch
 - Test the deployed model
-- Add the model to your inference ingest pipeline.
+- Add the model to your inference ingest pipeline
 
 [Next step](lab5.md).
