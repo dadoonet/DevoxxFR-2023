@@ -7,10 +7,16 @@ Useful links:
 * <https://www.elastic.co/guide/en/machine-learning/master/ml-nlp-ner-example.html>
 * <https://www.elastic.co/guide/en/machine-learning/master/ml-nlp-text-emb-vector-search-example.html>
 
-## Steps
-
+## Use case 1: Named Entity Recognition (NER) Model
+### Steps
 - Deploy a named entity recognition (NER) model in Elasticsearch.
-- Test the deplyed model.
-- Add the model to an inference ingest pipeline.
+- Test the deployed model.
+- Add the model to your inference ingest pipeline.
+
+## Use case 2: Text Embedding Model & Semantic Search
+### Steps
+- Deploy a text embedding model in Elasticsearch.
+- Test the deployed model
+- Add the model to your inference ingest pipeline.
 
 [Next step](lab5.md).
