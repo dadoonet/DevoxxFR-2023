@@ -3,7 +3,7 @@
 ## Prerequisite:
 - Adding a Machine Learning instance to your deplyment
 - This instance should be at least 16 GB RAM and 8 vCPU
-- Note: you can alwyas edit your deployment to add more capacity to ypur cluster.
+- Note: you can always edit your deployment to add more capacity to your cluster.
 - For both use cases, you need to clone the Eland repository then create a Docker image of Eland
 
    ```
@@ -20,7 +20,7 @@
 docker run -it --rm elastic/eland \
     eland_import_hub_model \
       --cloud-id $CLOUD_ID \
-      -u <username> -p <password> \
+      -u elastic -p <password> \
       --hub-model-id elastic/distilbert-base-uncased-finetuned-conll03-english \
       --task-type ner \
       --start
@@ -192,7 +192,7 @@ PUT _ingest/pipeline/ner
     docker run -it --rm elastic/eland \
     eland_import_hub_model \
       --cloud-id $CLOUD_ID \
-      -u <username> -p <password> \
+      -u elastic -p <password> \
       --hub-model-id sentence-transformers/msmarco-MiniLM-L-12-v3 \
       --task-type text_embedding \
       --start
