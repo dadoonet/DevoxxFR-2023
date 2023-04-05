@@ -3,7 +3,7 @@
 
 ## Prerequisite:
 If you have done these steps before, you can skip this section.
-- Adding a Machine Learning instance to your deplyment
+- Adding a Machine Learning instance to your deployment
 - This instance should be at least 16 GB RAM and 8 vCPU
 - Note: you can always edit your deployment to add more capacity to your cluster.
 - For both use cases, you need to clone the Eland repository then create a Docker image of Eland
