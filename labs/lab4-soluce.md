@@ -242,6 +242,10 @@ Deployed models can be evaluated in Kibana under` Machine Learning > Trained Mod
   ]
 }
  ```
+### Load data
+In this example, we use a subset of the MS MACRO Passage Ranking data set used in the testing stage of the 2019 TREC Deep Learning Track. You can upload the [data set](https://github.com/elastic/stack-docs/blob/8.5/docs/en/stack/ml/nlp/data/msmarco-passagetest2019-unique.tsv) using the [Data Visualizer](https://www.elastic.co/guide/en/kibana/master/connect-to-elasticsearch.html#upload-data-kibana).
+Name the first column `id` and the second one `text`. The index name is `collection`. After the upload is done, you can see an index named `collection` with 182469 documents.
+
 ### Add the model to your inference ingest pipeline
 - In Kibana, you can create and edit pipelines in `Stack Management > Ingest Pipelines`.
   - Click `Create pipeline` or edit an existing pipeline.
