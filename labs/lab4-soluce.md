@@ -78,9 +78,10 @@ Deployed models can be evaluated in Kibana under` Machine Learning > Trained Mod
 }
 ```
 
-### Add the model to your inference ingest pipeline
+### Load data
 You can perform bulk inference on documents as they are ingested by using an inference processor in your ingest pipeline. The novel Les Misérables by Victor Hugo is used as an example for inference in the following example. [Download](https://github.com/elastic/stack-docs/blob/8.5/docs/en/stack/ml/nlp/data/les-miserables-nd.json) the novel text split by paragraph as a JSON file, then upload it by using the [Data Visualizer](https://www.elastic.co/guide/en/kibana/master/connect-to-elasticsearch.html#upload-data-kibana). Give the new index the name `les-miserables` when uploading the file.
 
+### Add the model to your inference ingest pipeline
 Now, you can create an ingest pipeline either in the `Stack management UI` or by using the `API`:
 - Create pipeline:
 ```
