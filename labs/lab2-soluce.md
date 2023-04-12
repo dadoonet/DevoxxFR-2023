@@ -20,7 +20,7 @@ POST _ingest/pipeline/_simulate
       {
         "date": {
           "field": "date",
-          "formats": ["YYYY-MM-DD"],
+          "formats": ["yyyy-MM-dd"],
           "target_field": "date"
         }
       },
