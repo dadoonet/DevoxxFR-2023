@@ -20,7 +20,7 @@ POST _ingest/pipeline/devoxxpipeline/_simulate
   "docs": [
     {
       "_source": {
-        "content": "V2VsY29tZSB0byBEZXZveHggRnJhbmNlIDIwMTMuCg=="
+        "content": "V2VsY29tZSB0byBEZXZveHggRnJhbmNlIDIwMjMuCg=="
       }
     }
   ]

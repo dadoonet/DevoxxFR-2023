@@ -35,7 +35,7 @@ POST _ingest/pipeline/_simulate
   "docs": [
     {
       "_source": {
-        "content": "Welcome to Devoxx France 2013|Un moteur de recherche de documents d'entreprise|2023-04-12|4.5"
+        "content": "Welcome to Devoxx France 2023|Un moteur de recherche de documents d'entreprise|2023-04-12|4.5"
       }
     }
   ]
@@ -81,9 +81,9 @@ PUT /devoxxfr/_settings
 # Then index the following documents (using the bulk API)
 POST /devoxxfr/_bulk
 { "index" : { } }
-{ "content" : "Welcome to Devoxx France 2013|Un moteur de recherche de documents d'entreprise|2023-04-12|4.5" }
+{ "content" : "Welcome to Devoxx France 2023|Un moteur de recherche de documents d'entreprise|2023-04-12|4.5" }
 { "index" : { } }
-{ "content" : "Welcome to Devoxx France 2013|The Developer Portal: Open the Gate to Productivity 🚀|2023-04-13|5.0" }
+{ "content" : "Welcome to Devoxx France 2023|The Developer Portal: Open the Gate to Productivity 🚀|2023-04-13|5.0" }
 
 # Check all documents
 GET /devoxxfr/_search

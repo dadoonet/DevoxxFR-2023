@@ -14,7 +14,7 @@ Useful links:
 
 ```json
 {
-  "message": "Welcome to Devoxx France 2013"
+  "message": "Welcome to Devoxx France 2023"
 }
 ```
 
@@ -23,7 +23,7 @@ Useful links:
 
 ```json
 {
-  "message": "Welcome to Devoxx France 2013",
+  "message": "Welcome to Devoxx France 2023",
   "session": "2023-04-12"
 }
 ```
@@ -38,7 +38,7 @@ Useful links:
 
 ```json
 {
-  "message": "Welcome to Devoxx France 2013",
+  "message": "Welcome to Devoxx France 2023",
   "session": "Un moteur de recherche de documents d'entreprise"
 }
 ```

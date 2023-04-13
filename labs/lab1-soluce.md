@@ -4,7 +4,7 @@
 # Index a first document
 PUT /devoxxfr/_doc/1
 {
-  "message": "Welcome to Devoxx France 2013"
+  "message": "Welcome to Devoxx France 2023"
 }
 # Check that the document has been correctly indexed
 GET /devoxxfr/_doc/1
@@ -12,7 +12,7 @@ GET /devoxxfr/_doc/1
 # Update the document
 PUT /devoxxfr/_doc/1
 {
-  "message": "Welcome to Devoxx France 2013",
+  "message": "Welcome to Devoxx France 2023",
   "session": "2023-04-12"
 }
 # Check that the document has been correctly updated
@@ -26,7 +26,7 @@ GET /devoxxfr/_doc/1
 # Create a new document
 PUT /devoxxfr/_doc/2
 {
-  "message": "Welcome to Devoxx France 2013",
+  "message": "Welcome to Devoxx France 2023",
   "session": "Un moteur de recherche de documents d'entreprise"
 }
 
@@ -52,13 +52,13 @@ PUT /devoxxfr
 # Reindex doc 1
 PUT /devoxxfr/_doc/1
 {
-  "message": "Welcome to Devoxx France 2013",
+  "message": "Welcome to Devoxx France 2023",
   "session": "2023-04-12"
 }
 # Then doc 2
 PUT /devoxxfr/_doc/2
 {
-  "message": "Welcome to Devoxx France 2013",
+  "message": "Welcome to Devoxx France 2023",
   "session": "Un moteur de recherche de documents d'entreprise"
 }
 
